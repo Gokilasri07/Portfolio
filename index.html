@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gokilasri - Computer Science Engineering Student Portfolio">
+    <title>Gokilasri | AI & Full Stack Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <div class="loader">
+        <div class="loader-content">
+            <span>&lt;/&gt;</span>
+            <p>Initializing Portfolio...</p>
+        </div>
+    </div>
+
+    <div class="progress-bar"></div>
+
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span>&lt;</span>G<span>/</span><span>&gt;</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#journey">Journey</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+            <button class="menu-btn" id="menuBtn">☰</button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+
+            <div class="hero-grid"></div>
+
+            <div class="hero-content reveal">
+                <div class="availability">
+                    <span></span>
+                    Open to opportunities
+                </div>
+
+                <p class="hero-small">HELLO, I'M</p>
+
+                <h1>
+                    Gokilasri<span>.</span>
+                </h1>
+
+                <h2>
+                    <span id="typingText"></span>
+                </h2>
+
+                <p class="hero-description">
+                    Computer Science Engineering student passionate about
+                    building intelligent applications that connect
+                    <strong>AI, IoT and modern web technologies.</strong>
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">
+                        Explore My Work <span>↗</span>
+                    </a>
+
+                    <a href="#contact" class="btn secondary">
+                        Let's Connect
+                    </a>
+                </div>
+
+                <div class="social-row">
+                    <a href="#" aria-label="GitHub">GH</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Email">@</a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+
+                <div class="orb orb-one"></div>
+                <div class="orb orb-two"></div>
+
+                <div class="code-card">
+                    <div class="code-header">
+                        <div>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <p>developer.js</p>
+                    </div>
+
+                    <div class="code-body">
+                        <p><span class="purple">const</span> developer = {</p>
+                        <p class="indent">
+                            name:
+                            <span class="green">"Gokilasri"</span>,
+                        </p>
+                        <p class="indent">
+                            role:
+                            <span class="green">"CSE Student"</span>,
+                        </p>
+                        <p class="indent">
+                            focus:
+                            <span class="green">"AI + IoT"</span>,
+                        </p>
+                        <p class="indent">
+                            coffee:
+                            <span class="orange">true</span>
+                        </p>
+                        <p>};</p>
+                        <p class="cursor-line">_</p>
+                    </div>
+                </div>
+
+                <div class="floating-card card-ai">
+                    <span>◈</span>
+                    <div>
+                        <small>FOCUS</small>
+                        <strong>AI + ML</strong>
+                    </div>
+                </div>
+
+                <div class="floating-card card-iot">
+                    <span>⌁</span>
+                    <div>
+                        <small>BUILDING</small>
+                        <strong>IoT Systems</strong>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                <span></span>
+                Scroll to explore
+            </div>
+        </section>
+
+
+        <!-- STATS -->
+        <section class="stats-section">
+            <div class="stats-grid">
+
+                <div class="stat reveal">
+                    <strong data-count="9.47">0</strong>
+                    <span>CGPA / 10</span>
+                </div>
+
+                <div class="stat reveal">
+                    <strong data-count="5">0</strong>
+                    <span>+ Projects & Builds</span>
+                </div>
+
+                <div class="stat reveal">
+                    <strong data-count="10">0</strong>
+                    <span>+ Technologies</span>
+                </div>
+
+                <div class="stat reveal">
+                    <strong data-count="15">0</strong>
+                    <span>+ Certifications</span>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="section about" id="about">
+
+            <div class="section-heading reveal">
+                <span>01 — ABOUT ME</span>
+                <h2>More than just <em>code.</em></h2>
+                <p>
+                    I enjoy turning ideas into useful digital experiences
+                    and intelligent systems.
+                </p>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-main reveal">
+
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <span>G</span>
+                        </div>
+
+                        <div class="image-label">
+                            <span>CS</span>
+                            <p>ENGINEERING<br>STUDENT</p>
+                        </div>
+                    </div>
+
+                    <div class="about-text">
+                        <p>
+                            I'm a Computer Science Engineering student with a
+                            strong interest in <strong>Artificial Intelligence,
+                            Machine Learning, Full Stack Development and IoT.</strong>
+                        </p>
+
+                        <p>
+                            My goal is to create technology that is not only
+                            functional, but also meaningful, scalable and
+                            enjoyable to use.
+                        </p>
+
+                        <p>
+                            From intelligent agriculture systems to computer
+                            vision and modern web applications, I love
+                            experimenting with technologies and solving
+                            real-world problems.
+                        </p>
+
+                        <a href="assets/resume.pdf" class="text-link" download>
+                            Download Resume ↗
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="about-cards">
+
+                    <div class="info-card reveal">
+                        <span class="card-icon">⌘</span>
+                        <h3>Problem Solver</h3>
+                        <p>
+                            Breaking complex problems into simple,
+                            practical solutions.
+                        </p>
+                    </div>
+
+                    <div class="info-card reveal">
+                        <span class="card-icon">◉</span>
+                        <h3>Tech Explorer</h3>
+                        <p>
+                            Constantly experimenting with emerging
+                            technologies and frameworks.
+                        </p>
+                    </div>
+
+                    <div class="info-card reveal">
+                        <span class="card-icon">✦</span>
+                        <h3>Creative Thinker</h3>
+                        <p>
+                            Combining technical thinking with
+                            creativity and visual design.
+                        </p>
+                    </div>
+
+                    <div class="info-card reveal">
+                        <span class="card-icon">∞</span>
+                        <h3>Continuous Learner</h3>
+                        <p>
+                            Always learning, building and improving
+                            one project at a time.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- QUICK PROFILE -->
+            <div class="profile-strip reveal">
+
+                <div>
+                    <span>EDUCATION</span>
+                    <strong>B.E. Computer Science & Engineering</strong>
+                </div>
+
+                <div>
+                    <span>INTERESTS</span>
+                    <strong>AI · ML · IoT · Web Development</strong>
+                </div>
+
+                <div>
+                    <span>LOCATION</span>
+                    <strong>Madurai, Tamil Nadu</strong>
+                </div>
+
+                <div>
+                    <span>STATUS</span>
+                    <strong>Student Developer</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading reveal">
+                <span>02 — SKILLS</span>
+                <h2>My <em>tech stack.</em></h2>
+                <p>Technologies I use to turn ideas into working products.</p>
+            </div>
+
+            <div class="skills-layout">
+
+                <div class="skills-list reveal">
+
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+
+                        <div class="skill-tags">
+                            <span>C</span>
+                            <span>Java</span>
+                            <span>Python</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+
+                        <div class="skill-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>React.js</span>
+                            <span>Responsive UI</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Backend & Database</h3>
+
+                        <div class="skill-tags">
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>AI / IoT</h3>
+
+                        <div class="skill-tags">
+                            <span>Machine Learning</span>
+                            <span>CNN</span>
+                            <span>Arduino</span>
+                            <span>ESP32</span>
+                            <span>Raspberry Pi</span>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="skill-orbit reveal">
+
+                    <div class="orbit orbit-1"></div>
+                    <div class="orbit orbit-2"></div>
+                    <div class="orbit orbit-3"></div>
+
+                    <div class="skill-core">
+                        <span>AI</span>
+                        <small>TECH</small>
+                    </div>
+
+                    <div class="orbit-item item-1">JS</div>
+                    <div class="orbit-item item-2">ML</div>
+                    <div class="orbit-item item-3">IoT</div>
+                    <div class="orbit-item item-4">SQL</div>
+                    <div class="orbit-item item-5">React</div>
+                    <div class="orbit-item item-6">Java</div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section projects-section" id="projects">
+
+            <div class="section-heading reveal">
+                <span>06 — PROJECTS</span>
+                <h2>What I've <em>built.</em></h2>
+                <p>A showcase of my projects combining AI, IoT and web technologies.</p>
+            </div>
+        <div class="projects-grid">
+
+    <article class="project-card featured reveal" data-category="ai iot">
+
+        <div class="project-number">01</div>
+
+        <div class="project-visual agriculture">
+            <div class="visual-grid"></div>
+            <span class="visual-icon">🌱</span>
+        </div>
+
+        <div class="project-content">
+            <span class="project-type">AI + IoT</span>
+
+            <h3>AgriX</h3>
+
+            <p>
+                Smart agriculture platform combining IoT sensors,
+                machine learning, crop disease detection,
+                smart irrigation and yield forecasting.
+            </p>
+
+            <div class="project-tech">
+                <span>ESP32</span>
+                <span>Raspberry Pi</span>
+                <span>CNN</span>
+                <span>MQTT</span>
+                <span>Firebase</span>
+            </div>
+
+            <a href="#" class="project-link">
+                View Project ↗
+            </a>
+        </div>
+
+    </article>
+
+
+    <article class="project-card reveal" data-category="iot web">
+
+        <div class="project-number">02</div>
+
+        <div class="project-visual attendance">
+            <div class="scanner"></div>
+            <span class="visual-icon">◉</span>
+        </div>
+
+        <div class="project-content">
+            <span class="project-type">IoT + Computer Vision</span>
+
+            <h3>SAMAS</h3>
+
+            <p>
+                NFC-based attendance monitoring system integrated
+                with face recognition and real-time dashboards.
+            </p>
+
+            <div class="project-tech">
+                <span>Raspberry Pi</span>
+                <span>PN532</span>
+                <span>Python</span>
+                <span>Face Recognition</span>
+            </div>
+
+            <a href="#" class="project-link">
+                View Project ↗
+            </a>
+        </div>
+
+    </article>
+
+
+    <article class="project-card reveal" data-category="ai">
+
+        <div class="project-number">03</div>
+
+        <div class="project-visual code-ai">
+            <div class="code-lines">
+                <span>&lt;/&gt;</span>
+                <span>AI</span>
+                <span>01</span>
+            </div>
+        </div>
+
+        <div class="project-content">
+            <span class="project-type">AI + Developer Tool</span>
+
+            <h3>Smart Code Summarizer</h3>
+
+            <p>
+                AI-powered developer tool that analyzes source code
+                and generates concise, understandable summaries to
+                help users quickly understand complex programs.
+            </p>
+
+            <div class="project-tech">
+                <span>Python</span>
+                <span>AI</span>
+                <span>NLP</span>
+                <span>LLM</span>
+            </div>
+
+            <a href="#" class="project-link">
+                View Project ↗
+            </a>
+        </div>
+
+    </article>
+
+
+    <article class="project-card reveal" data-category="web">
+
+        <div class="project-number">04</div>
+
+        <div class="project-visual handy">
+            <span class="visual-icon">⌘</span>
+        </div>
+
+        <div class="project-content">
+            <span class="project-type">Web Application</span>
+
+            <h3>Student Handy Hub</h3>
+
+            <p>
+                A student-focused platform designed to organize
+                useful academic resources and everyday tools.
+            </p>
+
+            <div class="project-tech">
+                <span>React.js</span>
+                <span>JavaScript</span>
+                <span>CSS</span>
+            </div>
+
+            <a href="#" class="project-link">
+                View Project ↗
+            </a>
+        </div>
+
+    </article>
+
+
+    <article class="project-card reveal" data-category="web">
+
+        <div class="project-number">05</div>
+
+        <div class="project-visual appliances">
+            <div class="appliance-icon">⚙</div>
+        </div>
+
+        <div class="project-content">
+            <span class="project-type">Full Stack Web</span>
+
+            <h3>Electronic Appliances CRUD</h3>
+
+            <p>
+                Web-based CRUD application for managing electronic
+                appliance records with functionality to add, view,
+                update and delete appliance details.
+            </p>
+
+            <div class="project-tech">
+                <span>React.js</span>
+                <span>JavaScript</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+            </div>
+
+            <a href="#" class="project-link">
+                View Project ↗
+            </a>
+        </div>
+
+    </article>
+
+
+    <article class="project-card reveal" data-category="ai">
+
+        <div class="project-number">06</div>
+
+        <div class="project-visual netsage">
+            <div class="network-animation">
+                <span>●</span>
+                <span>●</span>
+                <span>●</span>
+            </div>
+        </div>
+
+        <div class="project-content">
+            <span class="project-type">AI + Networking</span>
+
+            <h3>NetSage AI</h3>
+
+            <p>
+                AI-powered network troubleshooting assistant that
+                analyzes network symptoms and show-command outputs,
+                generates evidence-based diagnoses and requires
+                human expert review before acceptance.
+            </p>
+
+            <div class="project-tech">
+                <span>Artificial Intelligence</span>
+                <span>Networking</span>
+                <span>AI Diagnosis</span>
+                <span>Human-in-the-Loop</span>
+                <span>Audit Trail</span>
+            </div>
+
+            <a href="#" class="project-link">
+                View Project ↗
+            </a>
+        </div>
+
+    </article>
+
+</div>
+
+
+        <!-- JOURNEY -->
+        <section class="section journey-section" id="journey">
+
+            <div class="section-heading reveal">
+                <span>04 — JOURNEY</span>
+                <h2>My <em>timeline.</em></h2>
+                <p>A glimpse into my learning and development journey.</p>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">2024</div>
+
+                    <div class="timeline-content">
+                        <span>EDUCATION</span>
+                        <h3>Started B.E. Computer Science & Engineering</h3>
+                        <p>
+                            Began my engineering journey with a focus on
+                            programming, problem solving and computer science.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">2025</div>
+
+                    <div class="timeline-content">
+                        <span>DEVELOPMENT</span>
+                        <h3>Explored Full Stack & IoT</h3>
+                        <p>
+                            Built web applications and started working with
+                            Arduino, ESP32, Raspberry Pi and MQTT.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">2025–26</div>
+
+                    <div class="timeline-content">
+                        <span>AI + ML</span>
+                        <h3>Moved into Intelligent Systems</h3>
+                        <p>
+                            Started exploring CNNs, computer vision,
+                            machine learning and AI-powered applications.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">NOW</div>
+
+                    <div class="timeline-content">
+                        <span>BUILDING</span>
+                        <h3>Creating Real-World Solutions</h3>
+                        <p>
+                            Combining AI, IoT and modern software development
+                            to build impactful projects.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CERTIFICATIONS -->
+        <section class="section certifications">
+
+    <div class="section-heading reveal">
+        <span>05 — ACHIEVEMENTS</span>
+        <h2>Learning beyond the <em>classroom.</em></h2>
+        <p>
+            Certifications that strengthen my foundation across
+            programming, AI, data, cybersecurity and databases.
+        </p>
+    </div>
+
+    <div class="cert-grid">
+
+        <div class="cert-card reveal">
+            <span class="cert-icon">✦</span>
+            <div>
+                <small>NPTEL</small>
+                <h3>Programming in Java</h3>
+                <p>Elite + Gold · 91%</p>
+            </div>
+        </div>
+
+        <div class="cert-card reveal">
+            <span class="cert-icon">◆</span>
+            <div>
+                <small>NPTEL</small>
+                <h3>Object Oriented Programming</h3>
+                <p>Elite + Silver · 86%</p>
+            </div>
+        </div>
+
+        <div class="cert-card reveal">
+            <span class="cert-icon">◈</span>
+            <div>
+                <small>INFOSYS SPRINGBOARD</small>
+                <h3>Programming Using Java</h3>
+                <p>Gold Medal</p>
+            </div>
+        </div>
+
+        <div class="cert-card reveal">
+            <span class="cert-icon">⬡</span>
+            <div>
+                <small>CISCO</small>
+                <h3>Cybersecurity Essentials</h3>
+                <p>Certified</p>
+            </div>
+        </div>
+
+        <div class="cert-card reveal">
+            <span class="cert-icon">◉</span>
+            <div>
+                <small>CISCO</small>
+                <h3>Data Analytics Essentials</h3>
+                <p>Certified</p>
+            </div>
+        </div>
+
+        <div class="cert-card reveal">
+            <span class="cert-icon">✧</span>
+            <div>
+                <small>CISCO</small>
+                <h3>Introduction to Modern AI</h3>
+                <p>Certified</p>
+            </div>
+        </div>
+
+        <div class="cert-card reveal">
+            <span class="cert-icon">◇</span>
+            <div>
+                <small>CISCO</small>
+                <h3>Apply AI: Analyze Customer Reviews</h3>
+                <p>Certified</p>
+            </div>
+        </div>
+
+        <div class="cert-card reveal">
+            <span class="cert-icon">⬢</span>
+            <div>
+                <small>MONGODB</small>
+                <h3>MongoDB Skillathon</h3>
+                <p>Certified</p>
+            </div>
+        </div>
+
+        <div class="cert-card reveal">
+            <span class="cert-icon">▣</span>
+            <div>
+                <small>ICT ACADEMY</small>
+                <h3>MongoDB & AI Fundamentals</h3>
+                <p>Certified</p>
+            </div>
+        </div>
+
+        <div class="cert-card reveal">
+            <span class="cert-icon">∿</span>
+            <div>
+                <small>MATHWORKS</small>
+                <h3>Statistics / ML / Deep Learning on Ramp</h3>
+                <p>Certified</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+        <!-- CURRENTLY LEARNING -->
+        <section class="learning-section">
+
+            <div class="learning-inner reveal">
+
+                <div>
+                    <span class="eyebrow">CURRENTLY EXPLORING</span>
+
+                    <h2>
+                        Always learning.<br>
+                        Always <em>building.</em>
+                    </h2>
+                </div>
+
+                <div class="learning-items">
+                    <span>Generative AI</span>
+                    <span>Computer Vision</span>
+                    <span>Advanced React</span>
+                    <span>Cloud Computing</span>
+                    <span>Deep Learning</span>
+                    <span>System Design</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+
+            <div class="section-heading reveal">
+                <span>06 — CONTACT</span>
+                <h2>Let's build something <em>great.</em></h2>
+                <p>
+                    Have an idea, opportunity or collaboration in mind?
+                    Let's talk.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+
+                <div class="contact-info reveal">
+
+                    <div class="contact-line">
+                        <span>EMAIL</span>
+                        <a href="mailto:yourmail@example.com">
+                            gokilasri2007@gmail.com
+                        </a>
+                    </div>
+
+                    <div class="contact-line">
+                        <span>GITHUB</span>
+                        <a href="https://github.com/Gokilasri07/" target="_blank">
+                            github.com/Gokilasri07
+                        </a>
+                    </div>
+
+                    <div class="contact-line">
+                        <span>LINKEDIN</span>
+                        <a href="https://www.linkedin.com/in/gokilasri-ayyanar-11430b3a2/" target="_blank">
+                            linkedin.com/in/gokilasri-ayyanar-11430b3a2
+                        </a>
+                    </div>
+
+                    <div class="contact-message">
+                        <span>✦</span>
+                        <p>
+                            I'm always interested in new projects,
+                            internships, hackathons and collaborations.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <form class="contact-form reveal" id="contactForm">
+
+                    <div class="form-row">
+
+                        <div class="input-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="you@example.com" required>
+                        </div>
+
+                    </div>
+
+                    <div class="input-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="What's this about?" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="6" placeholder="Tell me about your idea..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn primary submit-btn">
+                        Send Message <span>↗</span>
+                    </button>
+
+                    <p class="form-status" id="formStatus"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-top">
+
+            <div>
+                <a href="#home" class="logo">
+                    <span>&lt;</span>G<span>/</span><span>&gt;</span>
+                </a>
+
+                <p>
+                    Building ideas into intelligent experiences.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 Gokilasri. All rights reserved.</span>
+            <span>Designed & built with curiosity.</span>
+        </div>
+
+    </footer>
+
+
+    <button class="back-top" id="backTop">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
